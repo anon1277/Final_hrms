@@ -110,7 +110,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 
 
-Installation
+## Installation
 To install this project, follow these steps:
 
 Clone the repository to your local machine by running the following command in your terminal:
