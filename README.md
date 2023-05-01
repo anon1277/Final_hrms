@@ -107,3 +107,43 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+Installation
+To install this project, follow these steps:
+
+Clone the repository to your local machine by running the following command in your terminal:
+
+git clone https://github.com/anon1277/Final_hrms.git
+
+Navigate to the project directory:
+
+cd Final_hrms
+
+
+Install the required dependencies using Composer:
+
+composer install
+Create a new .env file by copying the .env.example file:
+
+
+cp .env.example .env
+Generate a new application key:
+
+
+php artisan key:generate
+Update the .env file with your database credentials and other project-specific settings.
+
+Run the database migrations:
+
+
+php artisan migrate
+Optionally, seed the database with sample data:
+
+php artisan db:seed
+Start the Laravel development server:
+
+
+php artisan serve
+Navigate to the HRMS project in your web browser at http://localhost:8000 to confirm that it is running correctly.
